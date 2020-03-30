@@ -1,0 +1,121 @@
+@media (min-width:1200px){
+
+}
+@media (min-width:992px) and
+(max-width:1199.98px){
+    .icon-main .icon-item .fas {
+        margin-left: 74px;
+    }
+    .btn-like{
+        display: none;
+    }
+    .btn-contact {
+        font-size: 10px;
+    }
+}
+@media (min-width:768px) and
+(max-width:991.98px){
+    .btn-logo{
+        display: none;
+    }
+    .beautiful-main {
+        margin-top: -65px;
+    }
+    .super-div h2 {
+        font-size: 31px;
+    }
+    .super-img img {
+        margin-top: 95px;
+    }
+    .like-text a {
+        display: none;
+    }
+    .btn-like{
+        display: none;
+    }
+    .pricing-content p {
+        display: inline;
+    }
+    .contact-form-area form {
+        display: none;
+    }
+}
+
+
+
+@media (min-width:576px) and
+(max-width:767.98px){
+    header {
+        min-height: 80vh;
+    }
+    .header-img {
+        display: none;
+    }
+    .content h1 {
+        font-size: 27px;
+    }
+    .beautiful-img img {
+        display: none;
+    }
+    .owl-carousel .owl-item img {
+        width: 20%;
+    }
+    .like-text a {
+        display: none;
+    }
+    .contact-form-area form {
+        display: none;
+    }
+}
+
+@media (max-width:575.98px){
+    .header-img img {
+        display: none;
+    }
+    .icon-item i {
+        margin-left: 72px;
+    }
+    .content h1 {
+        font-size: 27px;
+    }
+    .beautiful-main {
+        margin-left: 30px;
+    }
+    .beautiful-img {
+        display: none;
+    }
+    .like-wrapper {
+        display: none;
+    }
+    .owl-carousel .owl-item img {
+        width: 15%;
+        margin-left: 185px;
+    }
+    .client-details h5 {
+        margin-left: 42%;
+        padding-top: 10px;
+    }
+    .client-details h6 {
+        margin-left: 30%;
+        padding-top: 9px;
+    }
+    .like-content span {
+        margin-left: 15%;
+    }
+    .like-content a {
+        display: none;
+    }
+    .btn-log {
+        margin-left: 6px;
+        margin-top: 15px;
+    }
+    .btn-logo {
+        margin-top: 15px;
+    }
+    .contact-form-area form {
+        display: none;
+    }
+    .contact-btt{
+        margin: 0px;
+    }
+}

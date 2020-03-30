@@ -1,0 +1,382 @@
+/* Basic */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+/* Same CLass */
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+h2{
+    color: #1a1a1a;
+    font-weight: 600;
+}
+h6{
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+p{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    color: #999999;
+    font-weight: 400;
+}
+.color-primary{
+    color: #008ed6;
+}
+.pad-50{
+    padding: 50px 0;
+}
+.pad-70{
+    padding: 70px 0;
+}
+.btn-logo{
+    color: #ffffff;
+    background-color: #008ed6;
+    border-radius: 0;
+    padding: 12px 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.btn-like{
+    color: #ffffff;
+    background-color: #008ed6;
+    border-radius: 0;
+    padding: 12px 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.btn-contact{
+    color: #ffffff;
+    background-color: #008ed6;
+    border-radius: 0;
+    padding: 12px 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.btn-log{
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #4d4e53;
+    border-radius: 0;
+    padding: 12px 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.btn-log:hover{
+    color: #ffffff;
+    background-color: #008ed6;
+    padding: 12px 26px;
+    font-weight: 600;
+}
+.before-after{
+    width: 100%;
+    padding: 5px 0;
+    background: url(../img/before-after.png) center top no-repeat;
+}
+.after-before{
+    width: 100%;
+    padding: 5px 0;
+    background: url(../img/before-after.png) center left no-repeat;
+}
+
+/* Header */
+header{
+    background-image: url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar button i{
+    color: #ffffff;
+    font-size: 22px;
+}
+.navbar-nav .nav-link{
+    color: #ffffff;
+    position: relative;
+    margin: 0 16px;
+}
+.navbar-nav .nav-link:first-child{
+    margin-left: 0;
+}
+.navbar-nav .nav-link:last-child{
+    margin-right: 0;
+}
+.navbar-nav .nav-link::before{
+    content: "";
+    position: absolute;
+    background: #008ed6;
+    height: 2px;
+    width: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.5s linear;
+}
+.navbar-nav .nav-link::after{
+    content: "";
+    position: absolute;
+    background: #008ed6;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s linear;
+}
+.navbar-nav .nav-link:hover::after{
+    width: 46%;
+}
+.navbar-nav .nav-link:hover::before{
+    width: 46%;
+}
+.content{
+    margin-top: 100px;
+}
+.content .bttn{
+    margin-top: 100px;
+}
+.header-img{
+    margin-top: 100px;
+}
+
+/* List Featured */
+.icon-main{
+    margin-top: 60px;
+}
+.icon-box{
+    width: 76px;
+    height: 76px;
+    line-height: 86px;
+    border-radius: 100%;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    margin: 0 auto;
+}
+.icon-main .icon-box i{
+    font-size: 26px;
+    color: #008ed6;
+}
+.icon-content h3{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 16px;
+}
+.icon-content p{
+    text-align: center;
+}
+
+/* beautiful Every Phone */
+.beautiful-item i{
+    font-size: 16px;
+    color: #008ed6;
+}
+
+/* Super Easy to Customize */
+.super-wrapper{
+    background-color: #f2f2f2;
+}
+
+/* Pricing Slider */
+.testimonial-wrapper{
+	background: url(../img/pricings_bg.png) no-repeat center;
+	background-size: cover;
+}
+.testimonial-wrapper .title{
+	color: #fff;
+	margin-top: 10px;
+}
+.testimonial-wrapper .divider-c{
+	margin-top: 20px;
+}
+.testimonials-content{
+	margin-top: 50px;
+}
+.owl-carousel .item h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	font-weight: 300;
+    font-style: italic;
+    padding: 0 10px;
+}
+.client-details{
+	margin-top: 25px;
+}
+.client-details h5{
+	color: #fff;
+    font-size: 14px;
+}
+.client-details h6{
+	color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 50px;
+}
+.pricings{}
+
+/* Like What You see */
+.like-wrapper{
+    background-color: #000000;
+}
+.like-content span{
+    font-size: 36px;
+    font-weight: 600;
+}
+.like-content a{
+    font-size: 30px;
+    font-weight: 400;
+    color: #c1c0c2;
+    margin-left: 5px;
+}
+.like-content a:hover{
+    text-decoration: none;
+}
+
+/* Pricing & Plants */
+.pricing-table{
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    margin-top: 90px;
+}
+.pricingtable-header{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 16px 0;
+}
+.pricingtable-header h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+.price-value{
+    padding: 34px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.price-value .amount sup{
+    font-size: 28px;
+}
+.price-value .amount h4{
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+}
+.pricing-content{
+    padding: 32px 0;
+    text-align: -webkit-center;
+}
+.pricing-content p{
+    width: 188px;
+}
+.pricing-content p span{
+    color: #008ed6;
+}
+.btn-pricing{
+    color: #008ed6;
+    background: transparent;
+    border: 1px solid #e0e0e0;
+    padding: 10px 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.pricingtable-header h3:hover{
+    color: #008ed6;
+}
+.pricing-table:hover .btn-pricing,
+.pricing-table:hover .price-value{
+    background: #008ed6;
+    color: #ffffff;
+    -moz-transition: 0.7s;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+}
+.pricing-table:hover .pricingtable-header h3{
+    color: #008ed6;
+}
+
+/* Contact */
+.contact-wrapper{
+    background: #ededed;
+    padding: 30px 0;
+}
+.contact-btt{
+    margin-bottom: 190px;
+}
+.contact-text {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.contact-text i{
+    font-size: 32px;
+    color: #008ed6;
+    margin-bottom: 18px;
+}
+
+/* Contact From */
+.contact-form-area {
+    background: #15141a;
+}
+.contact-form-area form {
+    padding: 34px;
+    margin-bottom: -110px;
+    margin-top: -210px;
+}
+.contact-form-area form input,
+.contact-form-area form textarea{
+    margin-bottom: 22px;
+    border: none;
+    border: 1px solid grey;
+    background: transparent;
+    border-radius: 0;
+}
+.contact-send{
+    margin-left: 19px;
+}
+
+/* Footer */
+footer{
+    background-color: #15141a;
+}
+.footer-icon{}
+.footer-pad{
+    padding: 36px 0;
+}
+.footer-icon i{
+    color: #444348;
+    font-size: 20px;
+    margin-left: 18px;
+}
+.footer-icon i:first-child{
+    margin-left: 0;
+}
+.footer-icon i:hover{
+    cursor: pointer;
+    color: #008ed6;
+}
+.footer-text h5{
+    color: #444348;
+}
